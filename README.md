@@ -1,6 +1,6 @@
 # Airflow on Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/leandroloi/airflow-button-test)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/leandroloi/heroku-airflow)
 
 [Airflow](https://github.com/airbnb/airflow) is a framework to programmatically
 author, schedule and monitor data workflows. Heroku is a great place to run
