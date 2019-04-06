@@ -27,5 +27,8 @@
     "heroku-postgresql",
     "heroku-redis",
     "mailgun:starter"
+  ],
+   "buildpacks": [
+    { "url": "https://github.com/cloudfoundry/python-buildpack.git" }
   ]
 }
