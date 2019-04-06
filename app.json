@@ -25,6 +25,6 @@
     "mailgun:starter"
   ],
   "buildpacks": [
-    { "url": "https://github.com/kennethreitz/conda-buildpack" }
+    { "url": "https://github.com/conda/conda-buildpack.git" }
   ]
 }
