@@ -3,3 +3,6 @@ celery[redis]
 apache-airflow[postgres,crypto,password,celery]
 rauth
 flask-sslify
+cffi
+numpy
+pandas
