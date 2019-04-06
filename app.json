@@ -18,6 +18,10 @@
     "PYTHONPATH": {
       "description": "Path for python",
       "value": "/app"
+    },
+    "AIRFLOW_FERNET_KEY": {
+      "description": "Fernet key should be generated as: python -c \"from cryptography.fernet import Fernet; print Fernet.generate_key()\"",
+      "value": ""
     }
   },
   "scripts": {
