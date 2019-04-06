@@ -1,2 +1,3 @@
 web: airflow webserver -p $PORT 
-worker: airflow worker scheduler: airflow scheduler
+worker: airflow worker 
+scheduler: airflow scheduler
