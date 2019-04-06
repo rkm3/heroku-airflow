@@ -1,7 +1,7 @@
 {
   "name": "Airflow Heroku",
   "description": "Run Airflow on Heroku",
-  "image": "heroku/heroku:18",
+  "image": "heroku/python",
   "env": {
      "AIRFLOW_GPL_UNIDECODE": {
       "description": "airflow gpl",
@@ -27,8 +27,5 @@
     "heroku-postgresql",
     "heroku-redis",
     "mailgun:starter"
-  ],
-   "buildpacks": [
-    { "url": "https://github.com/cloudfoundry/python-buildpack.git" }
   ]
 }
