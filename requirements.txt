@@ -1,6 +1,6 @@
 psycopg2
 celery[redis]
-apache-airflow[postgres,crypto,password,celery]
+apache-airflow[postgres,crypto,password,celery,s3]
 rauth
 flask-sslify
 cffi
