@@ -23,8 +23,5 @@
     "heroku-postgresql",
     "heroku-redis",
     "mailgun:starter"
-  ],
-  "buildpacks": [
-    { "url": "https://github.com/kennethreitz/conda-buildpack" }
   ]
 }
