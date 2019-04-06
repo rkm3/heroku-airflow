@@ -3,7 +3,7 @@
   "description": "Run Airflow on Heroku",
   "image": "heroku/python",
   "env": {
-     "AIRFLOW_GPL_UNIDECODE": {
+     "SLUGIFY_USES_TEXT_UNIDECODE": {
       "description": "airflow gpl",
       "value": "yes"
     },
