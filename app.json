@@ -15,10 +15,7 @@
       "description": "Path for python",
       "value": "/app"
     },
-    "AIRFLOW_GPL_UNIDECODE": {
-      "description": "AIRFLOW_GPL_UNIDECODE variable",
-      "value": "yes"
-    }
+    "AIRFLOW_GPL_UNIDECODE": "yes",
   },
   "scripts": {
     "postdeploy": "./init_env"
