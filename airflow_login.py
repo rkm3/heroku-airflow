@@ -1,4 +1,5 @@
 import airflow
+import os
 from airflow import models, settings
 from airflow.contrib.auth.backends.password_auth import PasswordUser
 user = PasswordUser(models.User())
