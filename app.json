@@ -1,7 +1,7 @@
 {
   "name": "Airflow Heroku",
   "description": "Run Airflow on Heroku",
-  "image": "heroku/cedar:14",
+  "image": "heroku/heroku:18",
   "env": {
     "AIRFLOW_HOME": {
       "description": "Where all the information for airflow lives",
