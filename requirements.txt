@@ -6,4 +6,4 @@ flask-sslify
 cffi
 numpy
 pandas
-gevent
+
