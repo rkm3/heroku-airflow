@@ -3,6 +3,10 @@
   "description": "Run Airflow on Heroku",
   "image": "heroku/heroku:18",
   "env": {
+     "AIRFLOW_GPL_UNIDECODE": {
+      "description": "airflow gpl",
+      "value": "yes"
+    },
     "AIRFLOW_HOME": {
       "description": "Where all the information for airflow lives",
       "value": "/app"
@@ -14,8 +18,7 @@
     "PYTHONPATH": {
       "description": "Path for python",
       "value": "/app"
-    },
-    "AIRFLOW_GPL_UNIDECODE": "yes",
+    }
   },
   "scripts": {
     "postdeploy": "./init_env"
