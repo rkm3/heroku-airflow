@@ -19,14 +19,14 @@ up and running:
   stored in the metadata database. The new key will have to be saved in the config
   var `AIRFLOW_FERNET_KEY`:
 
-  ```
+```
 $ python -c "from cryptography.fernet import Fernet; print Fernet.generate_key()"
 pB_dxwr55GbGp0rKAU0LhfEGHx77CAlTRV6g5vvSZWI=
 ```
 
 * The Procfile will need to change to include a scheduler and worker task like so:
 
-  ```
+```
 web: airflow webserver -p $PORT
 worker: airflow worker
 scheduler: airflow scheduler
@@ -35,11 +35,11 @@ scheduler: airflow scheduler
   scheduler to exactly one dyno.
 
 * If you deployed via the Heroku Button the metadata database should be set up. If
-  you didn't, then you'll need to log into a heroku bash session and instantiate
+  you didn't, then you'll need to log into a Heroku bash session and instantiate
   the database. Make sure that a Heroku Postgres database has already been attached
   to the project:
 
-  ```
+```
 $ heroku run bash
 ~ $ airflow initdb
 ```
